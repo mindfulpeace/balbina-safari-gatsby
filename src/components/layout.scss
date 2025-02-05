@@ -1,0 +1,19 @@
+.container {
+  margin: auto;
+  max-width: 500px;
+  font-family: sans-serif;
+  header {
+    color: rebeccapurple;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+  }
+  li {
+    padding-right: 2rem;
+  a {
+    color: black;
+  }
+  }
+}
