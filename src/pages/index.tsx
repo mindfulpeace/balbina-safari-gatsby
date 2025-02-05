@@ -2,6 +2,7 @@ import * as React from "react";
 import { Link, type HeadFC, type PageProps } from "gatsby";
 import Layout from "../components/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import Seo from "../components/seo";
 
 const IndexPage: React.FC<PageProps> = () => {
   return (
@@ -13,7 +14,7 @@ const IndexPage: React.FC<PageProps> = () => {
       </p>
       <Link to="/about">About</Link>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
+        alt="A safari car driving through the wilderness"
         src="../images/car-5-p.jpg"
       />
     </Layout>
@@ -22,4 +23,4 @@ const IndexPage: React.FC<PageProps> = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Balbina Safari</title>;
+export const Head: HeadFC = () => <Seo  title="Home"/>;

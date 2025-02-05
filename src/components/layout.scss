@@ -3,17 +3,20 @@
   max-width: 500px;
   font-family: sans-serif;
   header {
-    color: rebeccapurple;
+    font-size: 2rem;
+    color: gray;
+    font-weight: 700;
+    margin: 2rem 0;
   }
   ul {
     display: flex;
     list-style: none;
     padding-left: 0;
-  }
-  li {
-    padding-right: 2rem;
-  a {
-    color: black;
-  }
+    li {
+      padding-right: 2rem;
+      a {
+        color: black;
+      }
+    }
   }
 }
