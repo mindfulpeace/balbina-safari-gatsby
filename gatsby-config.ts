@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `balbina-safari-gatsby`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.ballbinasafari.com`,
     description: `Balbina Safari 是一家位于坦桑尼亚的旅游公司，专注于提供独特的野生动物探险和文化体验。我们致力于为游客提供难忘的旅行回忆。`,
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
@@ -15,6 +15,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
